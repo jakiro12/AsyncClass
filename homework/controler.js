@@ -1,5 +1,5 @@
 const myURL= 'https://rickandmortyapi.com/api/character/'
-const myDiv= document.querySelector('div')
+const myDiv= document.querySelector('.apiResult')
 let myTitle=document.createElement('h1')
 let piccture= document.createElement('img')
 piccture.className='imageStyle'
