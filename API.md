@@ -4,7 +4,7 @@ Las interfaces de programación de aplicaciones (API) son construcciones disponi
 ## ¿Cómo funciona una API para desarrolladores de proyectos JavaScript?
 Una API que muchos usuarios de JavaScript prefieren usa comúnmente el método de solicitud GET. Sin embargo, una solicitud POST puede usarse para crear objetos para clasificar elementos o detectar contenido específico en el cuerpo de respuesta de la solicitud. Por ejemplo, una solicitud POST podría extraer ingredientes de los resultados de una API basada en recetas. Se devuelven respuestas con formato de notación de objetos JavaScript (JSON).
 
-## Metodos GET,POST ,PUT ,DELETE Y PATCH
+## Metodos GET ,POST ,PUT ,DELETE Y PATCH
 
 * GET
     El método GET se utiliza para recuperar datos del servidor. Este es un método de solo lectura, por lo que no tiene riesgo de mutar o corromper los datos. Por ejemplo, si llamamos al método get en nuestra API, obtendremos una lista de todas lo escrito.
@@ -99,13 +99,13 @@ headers: {
 <script>
     // PATCH to the resource id = 1
 // update that task is completed
-fetch(‘https://jsonplaceholder.typicode.com/todos/1', {
-method: ‘PATCH’,
+fetch('https://jsonplaceholder.typicode.com/todos/1', {
+method: 'PATCH',
 body: JSON.stringify({
 completed: true
 }),
 headers: {
-"Content-type": “application/json; charset=UTF-8”
+"Content-type": "application/json; charset=UTF-8"
 }
 })
 .then(response => response.json())

@@ -9,4 +9,13 @@ div{
     height: 400px;
     border: 2px solid black;
     text-align: center;
+    display: grid;
+    place-items: center;
+    color: royalblue;
+}
+.imgStyles{
+    border: 4px groove green;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }

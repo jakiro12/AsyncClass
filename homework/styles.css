@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    width: 450px;
+    height: 500px;
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    align-content: space-around;
+}
+button{
+    width: fit-content;
+    margin-inline: auto;
+}
+.infoCharacter{
+    font-size: 25px;
+    color: rgb(28, 18, 18);
+    font-weight: 500;
+}
+.imageStyle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px groove pink;
+}

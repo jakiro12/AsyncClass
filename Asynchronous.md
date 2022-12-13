@@ -14,8 +14,9 @@ function sayName(){
     setTimeout(function hi(){
         console.log(`hola ${onlyNames}`)
     },2000)
-    
 }
+sayName()
+hisName()
 </script>
 
 ## Uso correcto con promesas

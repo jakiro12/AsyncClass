@@ -1,6 +1,6 @@
 Su tarea es realizar lo mismo que el ejemplo pero con alguna de las siguientes api
 
-https://rickandmortyapi.com/api/character
+https://rickandmortyapi.com/api/character/
 
 https://pokeapi.co/api/v2/
 
